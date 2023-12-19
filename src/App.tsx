@@ -1,3 +1,4 @@
+import { ProjectWrapperComponent as ProjectWrapper } from "./components/projectWrapperComponent/index"
 import Logo from "./assets/dekupah-logo.png"
 
 export default function App() {
@@ -24,39 +25,33 @@ export default function App() {
             </section>
             <section>
               {/*--------------------------------------------------------------*/}
-              <section className="flex w-full justify-between py-3 h-52 overflow-hidden">
-                <section className="max-w-[60%]">
-                  <h2 className="text-xl font-bold uppercase" style={{color: "#595656"}}>Primeiro Projeto</h2>
-                  <p className="text-lg" style={{color: "#595656"}}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam voluptates deleniti mollitia nobis iusto rerum voluptatum facere praesentium placeat aliquam, dolor soluta. Earum eum error sed exercitationem autem maiores at.</p>
-                </section>
-                <section className="h-full w-[40%] relative">
-                  <div className="w-0 h-0 absolute" style={{borderRight: "50px solid transparent", borderTop: "200px solid white"}}></div>
-                  <img src="https://randomuser.me/api/portraits/women/50.jpg" alt="" className="object-cover h-full w-full" />
-                </section>
-              </section>
+              <ProjectWrapper
+                title = "Projeto 1"
+                text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam voluptates deleniti mollitia nobis iusto rerum voluptatum facere praesentium placeat aliquam, dolor soluta. Earum eum error sed exercitationem autem maiores at."
+                imageUrl="https://randomuser.me/api/portraits/women/50.jpg"
+                index={1}
+              />
               {/*--------------------------------------------------------------*/}
-              <section className="flex w-full justify-between py-3 h-52 overflow-hidden">
-                <section className="h-full w-[40%] relative">
-                  <div className="w-0 h-0 absolute right-0" style={{borderLeft: "50px solid transparent", borderBottom: "200px solid white"}}></div>
-                  <img src="https://randomuser.me/api/portraits/women/50.jpg" alt="" className="object-cover h-full w-full" />
-                </section>
-                <section className="max-w-[60%]">
-                  <h2 className="text-xl font-bold uppercase" style={{color: "#595656"}}>Segundo Projeto</h2>
-                  <p className="text-lg" style={{color: "#595656"}}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam voluptates deleniti mollitia nobis iusto rerum voluptatum facere praesentium placeat aliquam, dolor soluta. Earum eum error sed exercitationem autem maiores at.</p>
-                </section>
-              </section>
+              <ProjectWrapper
+                title = "Projeto 2"
+                text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam voluptates deleniti mollitia nobis iusto rerum voluptatum facere praesentium placeat aliquam, dolor soluta. Earum eum error sed exercitationem autem maiores at."
+                imageUrl="https://randomuser.me/api/portraits/women/50.jpg"
+                index={2}
+              />
               {/*--------------------------------------------------------------*/}
-              <section className="flex w-full justify-between py-3 h-52 overflow-hidden">
-                <section className="max-w-[60%]">
-                  <h2 className="text-xl font-bold uppercase" style={{color: "#595656"}}>Terceiro Projeto</h2>
-                  <p className="text-lg" style={{color: "#595656"}}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam voluptates deleniti mollitia nobis iusto rerum voluptatum facere praesentium placeat aliquam, dolor soluta. Earum eum error sed exercitationem autem maiores at.</p>
-                </section>
-                <section className="h-full w-[40%] relative">
-                  <div className="w-0 h-0 absolute" style={{borderRight: "50px solid transparent", borderTop: "200px solid white"}}></div>
-                  <img src="https://randomuser.me/api/portraits/women/50.jpg" alt="" className="object-cover h-full w-full" />
-                </section>
-              </section>
+              <ProjectWrapper
+                title = "Projeto 3"
+                text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam voluptates deleniti mollitia nobis iusto rerum voluptatum facere praesentium placeat aliquam, dolor soluta. Earum eum error sed exercitationem autem maiores at."
+                imageUrl="https://randomuser.me/api/portraits/women/50.jpg"
+                index={3}
+              />
               {/*--------------------------------------------------------------*/}
+              <ProjectWrapper
+                title = "Projeto 4"
+                text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam voluptates deleniti mollitia nobis iusto rerum voluptatum facere praesentium placeat aliquam, dolor soluta. Earum eum error sed exercitationem autem maiores at."
+                imageUrl="https://randomuser.me/api/portraits/women/50.jpg"
+                index={4}
+              />
             </section>
           </section>
       </main>
