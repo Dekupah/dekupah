@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+article:hover > .dinamic-width {
+  max-width: 50%;
+}
+
+article:hover {
+  transform: translateY(-1rem);
+}

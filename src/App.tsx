@@ -1,7 +1,7 @@
 import { ArticleComponent as Article } from "./components/Article/index"
 import Logo from "./assets/dekupah-logo.png"
 
-export default function App() {
+export default function App(): any {
 
   return (
     <>
